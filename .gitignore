@@ -22,3 +22,12 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+# Custom
+testfolder
+.vscode
+models
+data.db
+debug
+afoec.exe
+templates/*.go

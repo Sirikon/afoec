@@ -1,0 +1,22 @@
+{% import "github.com/Sirikon/afoec/structs" %}
+
+
+        {% func Hello(model structs.Model, items []structs.Item) %}
+        <html>
+    <head>
+        <title>Afoec!</title>
+    </head>
+    <body>
+        <h1>Afoec Demo</h1>
+            <h2>{%s model.Name %}</h2>
+            {% for _, item := range items %}
+                <ul>
+                {% for _, field := range item.Fields %}
+                    <li>{%s string(field.Value) %}</li>
+                {% endfor %}
+                </ul>
+            {% endfor %}
+                </body>
+</html>
+
+        {% endfunc %}

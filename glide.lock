@@ -1,0 +1,12 @@
+hash: 0d9da8343ad603dda45e98abc321f39675cee0c7475290963d0292060d4cae22
+updated: 2017-05-13T12:21:23.2886831+02:00
+imports:
+- name: github.com/Jeffail/gabs
+  version: 2a3aa15961d5fee6047b8151b67ac2f08ba2c48c
+- name: github.com/mattn/go-sqlite3
+  version: ca5e3819723d8eeaf170ad510e7da1d6d2e94a08
+- name: golang.org/x/net
+  version: f315505cf3349909cdf013ea56690da34e96a451
+  subpackages:
+  - context
+testImports: []
